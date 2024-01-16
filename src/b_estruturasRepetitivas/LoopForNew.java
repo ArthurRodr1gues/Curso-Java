@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LoopForNew {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Digite a quantidade de iterações: ");
             int N = sc.nextInt();
             int soma = 0;
@@ -18,6 +18,7 @@ public class LoopForNew {
 
             System.out.printf("A soma dos %d números digitados é: %d", i, soma);
         sc.close();
+        }
     }
     
 }
