@@ -1,10 +1,10 @@
-package estruturasRepetitivas;
+package b_estruturasRepetitivas;
 
 import java.util.Scanner;
 
-public class LoopForNew {
+public class LoopFor {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Digite a quantidade de iterações: ");
             int N = sc.nextInt();
             int soma = 0;
@@ -17,9 +17,8 @@ public class LoopForNew {
             }
 
             System.out.printf("A soma dos %d números digitados é: %d", i, soma);
-        sc.close();
+        } // O Scanner será automaticamente fechado ao sair deste bloco try
     }
-    
 }
 
-//Aqui é para ver que o alerta de não fechamento do scanner é falso
+//Forma de corrigir o falso alerta do VsCode

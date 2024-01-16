@@ -1,4 +1,4 @@
-package operadores;
+package a_operadores;
 
 import java.util.Scanner;
 import java.util.Locale;
