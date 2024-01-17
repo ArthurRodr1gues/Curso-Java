@@ -2,7 +2,8 @@ package d_pOO;
 
 import java.util.Locale;
 import java.util.Scanner;
-import d_pOO.Entities.Triangle;
+
+import d_pOO.entities.Triangle;
 
 
 public class B_TrianguloPoo {

@@ -1,4 +1,4 @@
-package d_pOO.Entities;
+package d_pOO.entities;
 
 public class Product {
             

@@ -3,7 +3,7 @@ package d_pOO;
 import java.util.Locale;
 import java.util.Scanner;
 
-import d_pOO.Entities.Product;
+import d_pOO.entities.Product;
 
 public class C_Estoque {
     public static void main(String[] args) {
