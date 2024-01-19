@@ -1,0 +1,17 @@
+O this serve, dentre outras coisas, para diferenciar os atributos das variáveis locais. Por exemplo:
+
+public class I_ProductConstrutor {
+            
+        public String name;
+        public double price;
+        public int quantity;
+        public Object sc;
+
+        public I_ProductConstrutor(String name, double price, int quantity) {
+            this.name = name;
+            this.price = price;
+            this.quantity = quantity;
+        }
+}
+
+aqui nesse código, quando se usa o this.name está se especificando que o this usado será o atributo.

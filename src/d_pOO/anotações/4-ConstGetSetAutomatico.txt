@@ -1,0 +1,5 @@
+Contrutores:
+Botão direito >> source action... >> Generate constructores...
+
+Getters e setters:
+Botão direito >> source action... >> Generate getters and setters
