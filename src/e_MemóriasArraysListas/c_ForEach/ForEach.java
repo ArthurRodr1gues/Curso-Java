@@ -1,6 +1,6 @@
-package e_MemóriasArraysListas;
+package e_MemóriasArraysListas.c_ForEach;
 
-public class c_ForEach {
+public class ForEach {
 
     public static void main(String[] args) {
 

@@ -1,0 +1,15 @@
+Vamos considerar a matriz:
+
+int[][] matriz = {
+    {1, 2, 3},
+    {4, 5, 6}
+};
+
+1- matriz.length: Neste caso, matriz.length seria 2, pois há dois conjuntos de chaves, representando duas linhas na matriz.
+
+2 - matriz[<nº da linha>].length (Neste caso, variando de 0 a 1):
+
+matriz[0].length retornaria 3, pois a primeira linha tem três elementos (colunas).
+matriz[1].length igualmente retornaria 3, embora a segunda linha tenha apenas três elementos (colunas). 
+Isso ocorre porque em Java, todas as linhas de uma matriz bidimensional têm o mesmo comprimento.
+É importante notar que, em uma matriz bidimensional em Java, todas as linhas têm o mesmo número de colunas.

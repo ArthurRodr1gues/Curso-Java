@@ -1,9 +1,9 @@
-package e_MemóriasArraysListas;
+package e_MemóriasArraysListas.a_Vetores;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class a_Vetores {
+public class Vetores {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
