@@ -1,4 +1,4 @@
-package gb_Composiçoes.entities;
+package gc_StringBuilder.entities;
 
 public class Comment {
 
